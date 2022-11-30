@@ -134,100 +134,34 @@
     <link href="offcanvas.css" rel="stylesheet">
 </head>
 
-<body class="bg-white col-12 col-lg-4 col-sm-12 p-0 ">
-    <div class="container m-0 p-0 bg-secondary  pb-5 justify-content-center ">
-        <nav class="navbar navbar-dark  bg-secondary mb-5 ">
-            <div class="container-fluid">
-                <a class="navbar-brand  " href="#">Warung Sederhana</a>
-                <button class="navbar-toggler fs-6" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Toko</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
+<body class="bg-white col-12 col-lg-4 col-sm-12 p-0 shadow">
+    <div class="card text-bg-dark m-0 rounded border-0">
+        <div class="bg-dark "></div>
+        <img src="gambar/banner1.jpg" class="card-img crop-image w-100 mt-0" alt="..." height="120px">
+        <div class="card-img-overlay text-center bg-dark bg-opacity-50">
+            <img src="gambar/ayam_bakar1.jpg" class="rounded-circle crop-image me-3 shadow mb-2" width="60px" height="60px" alt="">
+            <p class="card-title h6" href="#">Warung Sederhana <i class="bi bi-check-circle-fill text-white small"></i></p>
 
 
 
-    </div>
-
-
-
-    <div class="container  position-absolute top-0 banner col-12 col-lg-4 col-sm-12 m-auto">
-        <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="true">
-
-            <div class="carousel-inner bg-primary p-3 rounded-4 shadow-sm">
-                <div class="carousel-item  bg-primary active">
-                    <div class=" ">
-                        <div class="row">
-                            <div class="col-4 ms-3">
-                                <img src="gambar/ayam_bakar1.jpg" class="crop-image rounded-circle" width="100px" height="100px" alt="" data-aos="zoom-in">
-                            </div>
-                            <div class="col-7 ">
-                                <p class="text fs-6 text-white fw-lighter mt-4 mb-0">Pembelian 5 Kotak</p>
-                                <p class="text fs-3 text-white ">Diskon 30%</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item  bg-primary">
-                    <div class=" ">
-                        <div class="row">
-                            <div class="col-4 ms-3">
-                                <img src="gambar/ayam_bakar1.jpg" class="crop-image rounded-circle" width="100px" height="100px" alt="">
-                            </div>
-                            <div class="col-7 ">
-                                <p class="text fs-6 text-white fw-light mt-4 mb-0">Pembelian 5 Kotak</p>
-                                <p class="text fs-3 text-white ">Diskon 30%</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
         </div>
     </div>
 
-    <br><br><br>
 
-    <nav id="navbar-example2" class="shadow-sm  py-2  bg-white nav-scroller border-bottom">
+    <!-- <div class="container m-0 p-3 bg-secondary rounded-pill-bottom">
+
+
+        <nav class="navbar navbar-dark  bg-secondary">
+
+            <div class="container-fluid justify-content-center">
+                
+            </div>
+        </nav> 
+</div> -->
+
+
+
+    <nav id="navbar-example2" class="shadow-sm  py-2 bg-white nav-scroller border-bottom">
         <ul class="nav  ">
             <li class="nav-item ">
                 <a class="nav-link  " href="#nasi_goreng">Nasi Goreng</a>
@@ -254,39 +188,76 @@
 
 
 
-    <nav class="navbar fixed-bottom bg-light atas col-12 col-lg-4  col-sm-12 m-auto shadow">
-        <div class="container ">
-            <div class="col-3 ">
-                <button type="button" class="btn btn-light  position-relative pb-0" data-bs-toggle="offcanvas" data-bs-target="#cart" aria-controls="offcanvasBottom">
-          <i class="bi bi-basket-fill h3  text-danger"></i> <span class="position-absolute top-0 start-100 translate-middle badge  bg-primary fs-sm text-white rounded-circle   total-count mt-2  fw-light small shadow"> <span class="visually-hidden"></span></span>
+    <nav class="fixed-bottom bg-light atas col-12 col-lg-4  col-sm-12 m-auto  border-top  ">
+
+        <div class="row py-2  justify-content-center  px-4">
+            <div class="col-3 d-grid mx-auto">
+                <button type="button" class="btn btn-primary   rounded-5">
+                        <i class="bi bi-shop h5  text-white"></i> 
+                    </button>
+                <span>
+                    <center>
+                        <small >Beranda</small>
+                    </center>
+                </span>
+            </div>
+            <div class="col-3 d-grid mx-auto">
+                <button type="button" class="btn btn-light  position-relative rounded-5 align-item-center border-white" data-bs-toggle="offcanvas" data-bs-target="#cart" aria-controls="offcanvasBottom">
+          <i class="bi bi-basket h5  text-danger fw-bold"></i> 
+          <span class="position-absolute top-0 start-75 ms-2 translate-middle badge  bg-primary fs-sm text-white rounded-circle   total-count mt-2  fw-light small shadow-lg"> <span class="visually-hidden"></span>
+        </span>
         </button>
+                <span>
+                    <center>
+                        <small >Keranjang</small>
+                    </center>
+                </span>
             </div>
-            <div class="col-3">
-                <h6 class="text  text-danger fw-bold  text-end pe-2"><span class="total-cart"></span></h6>
-            </div>
-            <div class="col-5  ">
-                <button class="btn btn-success   px-5"></i> Beli</button>
+            <div class="col-3 d-grid   mx-auto ">
+                <button type="button" class="btn btn-light rounded-5  ">
+                        <i class="bi bi-geo-alt h5 text-danger"></i> 
+                    </button>
+                <span>
+                    <center>
+                        <small >Lokasi</small>
+                    </center>
+                </span>
             </div>
 
+            <div class="col-3 d-grid  mx-auto">
+                <button type="button" class="btn btn-light rounded-5 ">
+                        <i class="bi bi-whatsapp h5  text-danger"></i> 
+                    </button>
+                <span>
+                    <center>
+                        <small >whatsapp</small>
+                    </center>
+                </span>
+            </div>
+
+
         </div>
+
+
+
     </nav>
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -50%" data-bs-smooth-scroll="true" class="scrollspy-example bg-white  p-3 rounded-2" tabindex="0">
 
         <main class="">
             <div class="mb-3  rounded ">
-                <h5 class=" pb-4 mb-0 pt-3" data-bs-3 id="nasi_goreng">Nasi Goreng</h5>
+                <h5 class=" pb-4 mb-0 pt-3 " data-bs-3 id="nasi_goreng">Nasi Goreng</h5>
                 <div class="card crop-image mb-4  border-0" data-aos="zoom-in">
                     <div class="row g-0">
                         <div class="col-4 ">
-                            <img src="gambar/nasi_goreng_ayami.jpg" class="rounded w-100" height="100px" alt="...">
+                            <img src="gambar/nasi_goreng_ayami.jpg" class="rounded-3 w-100" height="100px" alt="...">
                         </div>
                         <div class="col-8">
                             <div class="card-body pt-0 ms-2">
-                                <h6 class="card-title  mb-0 mt-0">Nasi Goreng Ayam</h6>
+                                <h6 class="card-title   mb-0 mt-0">Nasi Goreng Ayam</h6>
                                 <p class="card-text "><small class="text-muted">Tersedia</small></p>
                                 <p class="card-text text-danger fw-bold m-0 p-0  position-absolute start-25 bottom-0">Rp. 15.000</p>
-                                <a href="#" data-name="Nasi_Goreng_Ayam" data-price="15000" data-image="gambar/nasi_goreng_ayami.jpg" class="add-to-cart btn btn-success btn-sm m-0   rounded position-absolute bottom-0 end-0  me-3"><i class="bi bi-plus h6 fw-bold"></i></a>
+                                <a href="#" data-name="Nasi_Goreng_Ayam" data-price="15000" data-image="gambar/nasi_goreng_ayami.jpg" class="add-to-cart btn btn-success btn-sm m-0   rounded-5 position-absolute bottom-0 end-0  me-3"><i class="bi bi-plus h6 fw-bold"></i></a>
                             </div>
                         </div>
                     </div>
@@ -485,9 +456,17 @@
                     <div class="row show-cart  ">
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 col-sm-12 m-auto  modal-footer fixed-bottom bg-light">
-                    <div class="me-3"> <span class="total-cart"></span></div>
-                    <button class="clear-cart btn btn-danger m-3 btn-sm ">Hapus Semua Keranjang</button>
+                <div class="col-12 col-lg-4 col-sm-12 m-auto   fixed-bottom light p-0">
+                    <div class="row mx-3">
+                        <div class="col-8">
+                            <small class="small">total</small>
+                            <h5 class="text  text-danger fw-bold  text-start  "><span class="total-cart"></span></h5>
+                        </div>
+                        <div class="col-4  ">
+                            <button class="btn btn-success rounded-4  px-5 my-2"></i> Beli</button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -540,7 +519,7 @@
 
 </body>
 
-</html>ript> AOS.init();
+
 </script>
 
 <script>
